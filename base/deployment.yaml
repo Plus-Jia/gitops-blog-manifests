@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gitops-blog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gitops-blog
+  template:
+    metadata:
+      labels:
+        app: gitops-blog
+    spec:
+      containers:
+        - name: gitops-blog
+          image: ghcr.io/plus-jia/gitops-blog:latest
+          ports:
+            - containerPort: 80
