@@ -4,8 +4,9 @@ kind: Kustomization
 namespace: default
 
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: ghcr.io/plus-jia/gitops-blog
-    newTag: PLACEHOLDER
+- name: ghcr.io/plus-jia/gitops-blog
+  newName: ghcr.io/plus-jia/gitops-blog
+  newTag: 136ed519cc0bb653b0f0b3ae39a6577d3f4ce922
