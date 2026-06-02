@@ -9,4 +9,4 @@ resources:
 images:
 - name: ghcr.io/plus-jia/gitops-blog
   newName: ghcr.io/plus-jia/gitops-blog
-  newTag: c34380a04fe6355298ef9bf95cfa5e8053725c65
+  newTag: 932453bd321cd4f72adcadf0132b4afb94ae4c15
