@@ -8,4 +8,4 @@ resources:
 
 images:
   - name: ghcr.io/plus-jia/gitops-blog
-    newTag: latest
+    newTag: PLACEHOLDER
