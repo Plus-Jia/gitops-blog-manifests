@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitops-blog-admin
+  labels:
+    app.kubernetes.io/name: gitops-blog-admin
+spec:
+  selector:
+    app.kubernetes.io/name: gitops-blog-admin
+  ports:
+    - name: http
+      port: 80
+      targetPort: http

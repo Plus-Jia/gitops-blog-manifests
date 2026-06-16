@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitops-blog-frontend
+  labels:
+    app.kubernetes.io/name: gitops-blog-frontend
+spec:
+  selector:
+    app.kubernetes.io/name: gitops-blog-frontend
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
