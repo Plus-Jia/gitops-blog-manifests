@@ -4,5 +4,5 @@ namespace: blog-dev
 resources:
   - ../../base
 images:
-  - name: ghcr.io/example/gitops-blog-frontend
-    newTag: 0cbc86d6ac6c835ec7ca9a95bef47b3ca85a47ba
+  - name: ghcr.io/plus-jia/gitops-blog-frontend
+    newTag: latest

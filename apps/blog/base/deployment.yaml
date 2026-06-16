@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: blog
-          image: ghcr.io/example/gitops-blog-frontend:dev
+          image: ghcr.io/plus-jia/gitops-blog-frontend:latest
           ports:
             - name: http
               containerPort: 80

@@ -4,5 +4,5 @@ namespace: blog-dev
 resources:
   - ../../base
 images:
-  - name: ghcr.io/example/gitops-blog-admin
-    newTag: dev
+  - name: ghcr.io/plus-jia/gitops-blog-admin
+    newTag: latest

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: admin
-          image: ghcr.io/example/gitops-blog-admin:dev
+          image: ghcr.io/plus-jia/gitops-blog-admin:latest
           ports:
             - name: http
               containerPort: 3000
